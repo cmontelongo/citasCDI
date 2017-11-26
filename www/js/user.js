@@ -1,7 +1,7 @@
 angular.module('miscitas.user', [])
 	.factory('User', function($http, $ionicPopup) {
 
-		var apiUrl = 'http://192.168.0.120:8081';
+		var apiUrl = 'http://192.168.1.138:8081';
 
 		var loggedIn = false;
 

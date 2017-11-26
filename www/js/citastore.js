@@ -1,7 +1,7 @@
 angular.module('miscitas.citastore', [])
 	.factory('CitaStore', function($http) {
 
-		var apiUrl = 'http://192.168.0.120:8081';
+		var apiUrl = 'http://192.168.1.138:8081';
 
 	  return {
 
